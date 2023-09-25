@@ -29,19 +29,21 @@ $ciccione = 3 + 11;
 </head>
  
 <body>
-
-        
-         <h1> questo è il paragrafo originale</h1>
-        <div class="mx-5 mb-5"> paragrafo: " <?php echo $php_paragrafo ?> " </div>
-        <div class="mx-5 mb-5"> lunghezza in caratteri: " <?php echo strlen($php_paragrafo) ?> " </div>
-         
-        <h1>la parola da censurare:</h1>
-        <div class="text-danger mx-5 mb-5"> >>> <?php echo $php_censurare ?> </div>
-
-        <h1> questo è il paragrafo originale</h1>
-        <div class="mx-5 mb-5"> paragrafo: " <?php echo $php_censurato ?> " </div>
-        <div class="mx-5 mb-5"> lunghezza in caratteri: " <?php echo strlen($php_censurato) ?> " </div>
-        
+<div class="container my-5">
+    
+    
+    <h1> questo è il paragrafo originale</h1>
+    <div class="mx-5 mb-5"> paragrafo: " <?php echo $php_paragrafo ?> " </div>
+    <div class="mx-5 mb-5"> lunghezza in caratteri: " <?php echo strlen($php_paragrafo) ?> " </div>
+    
+    <h1>la parola da censurare:</h1>
+    <div class="text-danger mx-5 mb-5"> >>> <?php echo $php_censurare ?> </div>
+    
+    <h1> questo è il paragrafo originale</h1>
+    <div class="mx-5 mb-5"> paragrafo: " <?php echo $php_censurato ?> " </div>
+    <div class="mx-5 mb-5"> lunghezza in caratteri: " <?php echo strlen($php_censurato) ?> " </div>
+    
+</div>
     
 
 
