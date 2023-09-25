@@ -30,7 +30,7 @@ $ciccione = 3 + 11;
  
 <body>
 <div class="container my-5">
-    
+
     
     <h1> questo è il paragrafo originale</h1>
     <div class="mx-5 mb-5"> paragrafo: " <?php echo $php_paragrafo ?> " </div>
